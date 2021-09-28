@@ -1,0 +1,20 @@
+<svg id="Group_59375" data-name="Group 59375" xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#3abfac"/>
+            <stop offset="1" stop-color="#10ac96"/>
+        </linearGradient>
+        <clipPath id="clip-path">
+            <path id="Rectangle_7693" data-name="Rectangle 7693" class="cls-1" d="M0 0h80v80H0z"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Group_56681" data-name="Group 56681" style="clip-path:url(#clip-path)">
+        <g id="Group_59368" data-name="Group 59368" transform="translate(15.88 9)">
+            <circle id="Ellipse_847" data-name="Ellipse 847" class="cls-1" cx="13" cy="13" r="13" transform="translate(12.454)"/>
+            <rect id="Rectangle_7360" data-name="Rectangle 7360" class="cls-1" width="48.24" height="26" rx="13" transform="translate(0 28.861)"/>
+        </g>
+    </g>
+</svg>

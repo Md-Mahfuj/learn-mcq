@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_132" data-name="Rectangle 132" style="stroke:#707070;fill:#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_55792" data-name="Group 55792" transform="translate(-.331)">
+        <path id="Path_153507" data-name="Path 153507" d="M12 0h12a12 12 0 0 1 12 12v12a12 12 0 0 1-12 12H12A12 12 0 0 1 0 24V12A12 12 0 0 1 12 0z" transform="translate(.331)" style="fill:#07074e"/>
+        <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(6.83 6)" style="clip-path:url(#clip-path)">
+            <g id="email" transform="translate(3.25 6.011)">
+                <g id="Group_55789" data-name="Group 55789" transform="translate(.704)">
+                    <g id="Group_55788" data-name="Group 55788">
+                        <path id="Path_133213" data-name="Path 133213" class="cls-4" d="M33.171 68.267h-16.1l8.048 7.233 8.143-7.209a.52.52 0 0 0-.091-.024z" transform="translate(-17.067 -68.267)"/>
+                    </g>
+                </g>
+                <g id="Group_55791" data-name="Group 55791" transform="translate(0 1.192)">
+                    <g id="Group_55790" data-name="Group 55790">
+                        <path id="Path_133214" data-name="Path 133214" class="cls-4" d="M9.144 105.919a.652.652 0 0 1-.792 0L0 98.406v10.2a.609.609 0 0 0 .625.592h16.25a.609.609 0 0 0 .625-.592V98.494z" transform="translate(0 -98.406)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

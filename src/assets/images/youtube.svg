@@ -1,0 +1,11 @@
+<svg data-name="Group 55782" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+    <defs>
+        <clipPath id="a">
+            <path data-name="Rectangle 132" style="stroke:#707070;fill:#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+    <rect data-name="Rectangle 7545" width="36" height="36" rx="12" style="fill:#07074e"/>
+    <g style="clip-path:url(#a)">
+        <path d="M20.7-3.767a2.647 2.647 0 0 0-1.865-1.863c-1.654-.452-8.269-.452-8.269-.452s-6.615 0-8.268.435a2.7 2.7 0 0 0-1.862 1.88A27.9 27.9 0 0 0 0 1.316 27.794 27.794 0 0 0 .436 6.4 2.648 2.648 0 0 0 2.3 8.261c1.671.453 8.268.453 8.268.453s6.615 0 8.268-.435A2.648 2.648 0 0 0 20.7 6.416a27.905 27.905 0 0 0 .435-5.083 26.48 26.48 0 0 0-.435-5.1zM8.461 4.484v-6.336l5.5 3.168zm0 0" transform="translate(7.605 16.79)" style="fill:#fff" data-name="Mask Group 4"/>
+    </g>
+</svg>

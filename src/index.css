@@ -1,0 +1,52 @@
+:root {
+    --color-primary: #5c6ac4;
+    --color-secondary: #ecc94b;
+    /* ... */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+.landing-background {
+    height: 90vh;
+    /*background-image: url("https://media.australian.museum/media/dd/images/Justin_Gilligan-Animal_Habitat-19583-medium.f.width-1600.5f0dc83.jpg")*/
+    background-image: url("https://kluge-ruhe.org/wp-content/uploads/2019/12/WinterWonderland.jpg")
+    /*background-image: url("https://i.pinimg.com/originals/fe/2b/0b/fe2b0b454d8c51373cfb8686bd37e942.jpg")*/
+    /*background-image: url("http://getwallpapers.com/wallpaper/full/b/9/3/875728-beautiful-nat-geo-wallpapers-hd-1920x1080-photo.jpg")*/
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 640px) {
+    .sm-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .md-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 2000px) {
+    .lg-hidden {
+        display: none;
+    }
+}
+
+

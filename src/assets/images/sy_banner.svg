@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="585">
+    <defs>
+        <clipPath id="a">
+            <path data-name="Path 153197" d="M0 0h1440v584H0z" style="fill:#f79046;opacity:.06"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 59620">
+        <path data-name="Path 153195" d="M0 0h1439v584H0z" transform="translate(0 1)" style="fill:#fffcf5"/>
+        <g data-name="Mask Group 58026" style="clip-path:url(#a)">
+            <path data-name="Ellipse 1012 - Outline" d="M169.882 56.057C107.1 56.057 56.018 107.172 56.018 170S107.1 283.943 169.882 283.943 283.746 232.828 283.746 170 232.667 56.057 169.882 56.057m0-56.057c93.823 0 169.882 76.112 169.882 170s-76.059 170-169.882 170S0 263.888 0 170 76.059 0 169.882 0z" transform="translate(-169.882 414)" style="fill:#fef4e9"/>
+        </g>
+    </g>
+</svg>
