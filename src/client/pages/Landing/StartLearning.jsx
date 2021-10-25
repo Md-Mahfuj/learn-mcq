@@ -11,7 +11,7 @@ const StartLearning = () => {
              style={{backgroundImage: `url(${banner}`, height: '800px'}}
 
         >
-            <nav className=" ">
+            <nav className="" style={{backgroundColor:'#ECF0F1 '}}>
                 <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
                     <div className=" lg:flex hidden justify-between h-16">
                         <div className="flex px-2 lg:px-0">
@@ -22,34 +22,25 @@ const StartLearning = () => {
                                 {/*     src={weblogo} alt="Workflow"/>*/}
 
 
-                                <img className="hidden lg:block h-8 w-auto cursor-pointer"
+                                 <img className="hidden lg:block h-8 w-auto cursor-pointer"
                                      src={weblogo}
                                      alt="Workflow"/>
                             </div>
 
-                            <div
+                               <div
                                 className=" hidden lg:ml-44 lg:flex lg:space-x-8  flex flex-row flex-nowrap justify-center items-center">
 
                                 {/*Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"*/}
 
-
-                                <a href="#"
-
-                                   className="border-transparent text-gray-500 inline-flex items-center px-3  border-b-2 text-sm font-medium">
-                                    Classes
-                                </a>
-                                <a href="#"
-                                   className="border-transparent text-gray-500 inline-flex items-center px-3 pt-1 border-b-2 text-sm font-medium">
-                                    Practise
-                                </a>
-                                <a href="#"
-                                   className="border-transparent text-gray-500  inline-flex items-center px-3 pt-1 border-b-2 text-sm font-medium">
+                                 <a href="#"
+                                   className="border-transparent text-gray-500  inline-flex items-center text-2xl px-3 pt-1 border-b-2 font-semibold">
                                     Courses
                                 </a>
-                                <a href="#"
-                                   className="border-transparent text-gray-500  inline-flex items-center px-3 pt-1 border-b-2 text-sm font-medium">
-                                    Library
-                                </a>
+                                 <a href="#"
+                                    className="border-transparent text-gray-500  inline-flex items-center text-2xl px-3 pt-1 border-b-2 font-semibold">
+                                     Blog
+                                 </a>
+
 
 
                             </div>
@@ -101,57 +92,21 @@ const StartLearning = () => {
                 className=" flex flex-col px-6 py-4 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
                 <div className="flex flex-col items-center w-full md:flex-row md:w-1/2">
 
+                          <h1 className="lg:text-6xl  text-4xl" style={{color:'#3bbfad'}}>
 
-                    <div className="max-w-lg md:mx-12 md:order-2 mt-14 lg:mt-1">
-                        <h1 className="lg:text-6xl  text-4xl">
-
-                            The No.1
+                            The best way to learn to code
 
                         </h1>
-                        <h1 className="lg:text-6xl font-medium tracking-wide text-gray-900 dark:text-white  text-4xl ">
-                            Online <span style={{color:'#3bbfad'}}>Learning</span>
 
-                        </h1>
-                        <h1 className="lg:text-6xl font-medium tracking-wide text-gray-800 dark:text-white text-4xl">
-
-                            Platform
-                        </h1>
-                        <p className=" mt-9  text-xl text-gray-900">Easy & effective learning journey starts with
-                            EduHive.
-                        </p>
-                        <div className="flex mt-5 ">
-                            <div
-                                className="flex items-center justify-center px-2    lg:px-4 lg:py-2  bg-gray-100 rounded-xl">
-                                <p className=" text-base text-gray-900">Academic</p>
-                            </div>
-                            <div
-                                className=" ml-3 flex items-center justify-center  px-2   lg:px-4 py-2 bg-gray-100 rounded-xl">
-                                <p className=" text-base text-gray-900">Admission</p>
-                            </div>
-                            <div
-                                className=" ml-3 flex items-center justify-center  px-2   lg:px-4 py-2 bg-gray-100 rounded-xl">
-                                <p className=" text-base text-gray-900">Job Entrance</p>
-                            </div>
-                        </div>
-
-
-
-                        <div className="mt-10 w-full  lg:w-52  bg-green-400 rounded-lg items-center py-3 cursor-pointer"
-
-                        >
-                            <p className="text-xl font-bold text-white text-center">Start Learning </p>
+                         <div className="mt-10 w-full  lg:w-52  bg-green-400 rounded-lg items-center py-3 cursor-pointer">
+							 
+                                                    <p className="text-xl font-bold text-white text-center">Start Learning </p>
 
                         </div>
 
-
-                    </div>
                 </div>
 
-                <div className="flex items-center justify-center w-full  md:w-1/2">
-                    <img className="  object-cover w-full h-full max-w-2xl rounded-md"
-                         src={man}
-                         alt=""/>
-                </div>
+
             </div>
         </div>
     )

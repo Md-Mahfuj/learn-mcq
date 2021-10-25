@@ -7,7 +7,7 @@ import Course from "../Landing/course"
 const Landing =()=>{
     return(
         <div className="flex flex-col">
-            {/*<StartLearning/>*/}
+            <StartLearning/>
             <Course/>
             {/*<Footetr/>*/}
         </div>

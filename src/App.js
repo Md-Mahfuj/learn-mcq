@@ -10,7 +10,7 @@ function App() {
     const [scrollToContent, contentRef] = useScroll()
 
     return (
-        <div className="flex flex-col">
+        <  div className="flex flex-col">
             <BrowserRouter>
                 <Switch>
                     <Route exact path='/' component={Landing}/>
