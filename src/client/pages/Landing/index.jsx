@@ -1,7 +1,7 @@
 import React from "react";
 import StartLearning from "./StartLearning";
 import Footetr from "./Footer";
-import Course from "../Landing/course"
+import Course from "../Landing/course";
 
 
 const Landing =()=>{
