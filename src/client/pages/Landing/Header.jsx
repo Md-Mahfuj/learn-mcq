@@ -2,8 +2,8 @@ import React from "react";
 import weblogo from "../../../assets/images/logo_eduhive.svg";
 
 
-const Header =()=>{
-    return(
+const Header = () => {
+    return (
         <div style={{}}>
             <nav className="" style={{backgroundColor: '#f8faf9'}}>
                 <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
@@ -16,9 +16,11 @@ const Header =()=>{
                                 {/*     src={weblogo} alt="Workflow"/>*/}
 
 
-                                <img className="hidden lg:block h-8 w-auto cursor-pointer"
-                                     src={weblogo}
-                                     alt="Workflow"/>
+                                {/*<img className="hidden lg:block h-8 w-auto cursor-pointer"*/}
+                                {/*     src={weblogo}*/}
+                                {/*     alt="Workflow"*/}
+                                {/*/>*/}
+
                             </div>
 
                             <div
@@ -41,7 +43,6 @@ const Header =()=>{
 
                         {/*right large size save and account icon section*/}
                         <div className=" lg:ml-4 lg:flex lg:items-center">
-
                             <div>
                                 <a href="#"
                                    className="lg:block hidden px-5 py-1 flex px-5 py-1 text-base font-bold text-white text-center w-28 bg-green-400 rounded-lg  rounded-md "
@@ -64,9 +65,10 @@ const Header =()=>{
                     {/*Mobile menu button */}
 
 
-                    <img className="flex h-8 "
-                         src={weblogo}
-                         alt="Workflow"/>
+                    {/*<img className="flex h-8 "*/}
+                    {/*     src={weblogo}*/}
+                    {/*     alt="Workflow"*/}
+                    {/*/>*/}
 
                     <a href="#"
                        className="flex bg-white border-2 border-green-400 px-5 py-1 text-base font-bold text-green-400 text-center  rounded-lg"

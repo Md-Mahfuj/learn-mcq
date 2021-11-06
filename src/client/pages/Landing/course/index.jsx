@@ -4,15 +4,15 @@ import {Link, Switch, Route,useParams} from 'react-router-dom';
 
 const Course = (props) => {
     const subject = [
-        {name: "English 1st Paper"},
-        {name: "বাংলা ১ম পত্র"},
-        {name: "বাংলা ২য় পত্র"},
+        // {name: "English 1st Paper"},
+        // {name: "বাংলা ১ম পত্র"},
+        // {name: "বাংলা ২য় পত্র"},
         {name: "ICT"},
         {name: "phaysis"},
-        {name: "রসায়ন"},
-        {name: "সাধারণ গণিত"},
-        {name: "উচ্চতর গণিত"},
-        {name: "জীববিজ্ঞান"},
+        // {name: "রসায়ন"},
+        // {name: "সাধারণ গণিত"},
+        // {name: "উচ্চতর গণিত"},
+        // {name: "জীববিজ্ঞান"},
     ]
 
     const CourseItem = (props) => {

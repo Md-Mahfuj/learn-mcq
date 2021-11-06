@@ -24,9 +24,7 @@ const StartLearning = () => {
                     <p className="mt-2 text-xl text-white">Join our global community. <b>It's free.</b></p>
 
                     <div className=" flex items-center justify-center mt-10 w-full  lg:w-52  bg-green-400 rounded-lg items-center py-3 cursor-pointer">
-
                            <p className="text-xl font-bold text-white text-center">Start Learning </p>
-
                     </div>
 
                 </div>
