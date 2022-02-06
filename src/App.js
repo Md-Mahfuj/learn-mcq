@@ -1,10 +1,11 @@
 import React from "react";
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-
-import {useScroll} from "./utils";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import CoursePage from "./client/pages/Course";
+import Home from "./client/pages/Home/Home";
 import Landing from "./client/pages/Landing";
 import Chapter from "./client/pages/Landing/course/Chapter";
-import CoursePage from "./client/pages/Course"
+import { useScroll } from "./utils";
+
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <BrowserRouter>
                 <Switch>
                     <Route exact path='/' component={Landing}/>
+                    <Route path="/home" component={Home}/>
                     <Route path='/subject/:subject' component={Chapter}/>
                     <Route path='/course' component={CoursePage}/>
 
