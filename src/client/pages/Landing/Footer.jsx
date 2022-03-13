@@ -15,7 +15,7 @@ const Footetr = (props) => {
 
             <div>
                 <div className=" flex items-center justify-center lg:justify-start" >
-                    <img className="w-36 cursor-pointer" src={Logo}/>
+                    <img className="w-36 cursor-pointer" src={"https://download.blender.org/branding/blender_logo_socket.png"}/>
 
                 </div>
                 <div className="flex mt-10 items-center justify-center lg:justify-start">
@@ -25,10 +25,10 @@ const Footetr = (props) => {
                     <img className="ml-4 cursor-pointer" src={Twitter}/>
 
                 </div>
-                <p className=" mt-9 text-base text-gray-500">© 2019 Tech Hive Limited. All Rights Reserved.</p>
+                {/*<p className=" mt-9 text-base text-gray-500">© 2019 Tech Hive Limited. All Rights Reserved.</p>*/}
             </div>
 
-            <div className="flex mt-16 lg:ml-20 lg:mt-0">
+            <div className="flex mt-16 lg:ml-20 lg:mt-0 md:items-center md:justify-center">
 
                 <div>
                     <p className="text-base text-gray-500 cursor-pointer">About Us</p>
@@ -50,14 +50,14 @@ const Footetr = (props) => {
             <div className=" mt-16 lg:ml-32 lg:mt-0">
                 <p className="text-base text-gray-500 text-center lg:text-left">Download Our Apps</p>
 
-                <div className="flex mt-5" >
-                    <img className="  w-32 h-11 cursor-pointer " src={playSrore}/>
-                    <img className="  w-32 h-11 ml-8 lg:ml-4 cursor-pointer " src={AppSrore}/>
+                <div className="flex mt-5 sm:ml-0 md:ml-44 lg:ml-0 xl:ml-0 2xl:ml-0 " >
+                    <img className="w-32 h-11 cursor-pointer" src={playSrore}/>
+                    <img className="w-32 h-11 ml-8 lg:ml-4 cursor-pointer" src={AppSrore}/>
                 </div>
 
                 <div className="flex flex-col items-center mt-10 lg:flex-row">
                     <img className="w-9 h-9 " src={EmailIcon}/>
-                    <p className=" ml-2 mt-4 lg:mt-0 lg:text-xl text-base text-gray-500">Email Us: Support@EduHive.com</p>
+                    <p className=" ml-2 mt-4 lg:mt-0 lg:text-xl text-base text-gray-500">Email Us: Support@Ekishi.com</p>
 
                 </div>
 
